@@ -22,7 +22,7 @@
 """
 
 
-def checkParamsContainTwoPositiveNumbers(a, b, c):
+def check_params_contain_two_positive_numbers(a, b, c):
     """
         Takes three integers a, b, and c as arguments, and returns True 
         if exactly two of of the three integers are positive numbers 
@@ -36,7 +36,7 @@ def checkParamsContainTwoPositiveNumbers(a, b, c):
     if c > 0:
         num += 1
 
-    if num >= 2:
+    if num == 2:
         return True
 
     return False

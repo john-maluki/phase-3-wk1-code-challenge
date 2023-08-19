@@ -71,6 +71,7 @@ The following have been used on this project:
 - Navigate to cloned repository: `cd phase-3-wk1-code-challenge`
 - Create pipenv environment: `pipenv shell`
 - Install dependencies: ` pipenv install`
+- Run test using pytest: `pytest`
 
 ## Authors
 

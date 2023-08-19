@@ -69,7 +69,7 @@ def calculate_consonant_values(l_str):
     summed_list_values_for_list_of_contants = [
         sum(
             [alphabetic_number_position[c] for c in l]
-        ) for l in constant_list_of_char_list
+        ) for l in constant_list_of_char_list if l != []
     ]
 
     return summed_list_values_for_list_of_contants

@@ -34,9 +34,7 @@ def convert_12_hour_time_to_24_hour_time(hour, minute, preriod):
     else:
         if hour == 12:
             hour = "00"
-            time = f"{hour}{str(minute)}"
-            return time
         else:
             hour = hour + 12
-            time = f"{str(hour)}{minute}"
-            return time
+        time = f"{str(hour)}{minute}"
+        return time
